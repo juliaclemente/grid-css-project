@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(204, 43%, 93%);
+}
+
+#container {
+    width: 600px;
+    height: 430px;
+    margin-top: 200px;
+    margin-left: 420px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    
+    display: grid;
+
+   grid-template: 
+   "header header" 200px
+   "main sidebar" auto / 1fr 1fr;
+
+}
+
+.header {
+    grid-area: header;
+    background-color: white;
+}
+
+.main {
+    grid-area: main;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: hsl(180, 76%, 63%);
+}
+
+/* Header elements */
+.htitle {
+    color: hsl(179, 62%, 43%);
+    background-color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 23px;
+    margin-top: 30px ;
+    margin-left: 30px;
+}
+
+.psubtitle {
+    color: hsl(71, 73%, 54%);
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    margin-left: 30px;
+}
+
+.phead {
+    background-color: white;
+    color: hsl(217, 24%, 79%);
+    font-family: 'Karla', sans-serif;
+    margin-left: 30px;
+}
+
+.hhead {
+    background-color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+/* Main elements */
+.hnumber {
+    display: inline-block;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    font-family: 'Karla', sans-serif;
+    margin-left: 30px;
+}
+
+.permonth {
+    display: inline-block;
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(217, 24%, 79%);
+    font-family: 'Karla', sans-serif;
+}
+
+.pmain {
+    background-color:  hsl(179, 62%, 43%);
+    color: white;
+    font-family: 'Karla', sans-serif;
+    margin-left: 30px;
+}
+
+.hmain {
+    background-color:  hsl(179, 62%, 43%);
+    color: white;
+    font-family: 'Karla', sans-serif;
+    margin-top: 30px ;
+    margin-left: 30px;
+}
+
+.signup {
+margin-left: 50px;
+color: white;
+background-color: rgb(167, 201, 73);
+font-family: 'Karla', sans-serif;
+font-size: 15px;
+width: 200px;
+height: 50px;
+border-radius: 12px;
+border: none;
+}
+
+/* Side bar elements */
+.psidebar {
+    background-color: hsl(180, 76%, 63%);
+    color: white;
+    font-family: 'Karla', sans-serif;
+    margin-left: 30px;
+}
+
+.hsidebar {
+    background-color: hsl(180, 76%, 63%);
+    color: white;
+    font-family: 'Karla', sans-serif;
+    margin-top: 30px ;
+    margin-left: 30px;
+}
